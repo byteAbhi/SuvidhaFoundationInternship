@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+  }
+   
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .blog-conatiner{
+    width: 30% !important;
+     margin-right: 1rem;
+      
+      
+  }
+  .srch-btn {
+    border: none ;
+    outline: none;
+
+  }
+  
+  .col-srch input::placeholder{
+    font-size: x-large;
+
+  }

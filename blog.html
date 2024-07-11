@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="navbar" class="d-flex justify-content-between align-items-center w-100 fixed-top   ">
+        <img src="/public/logo-2-550x123-1.webp" id="logo" alt="" class="w-25 p-3">
+        <i id="icon" class="fa-solid fa-bars-staggered" onclick="navClick()"></i>
+        <ul class="nav-ul d-flex justify-content-around align-items-center w-50 ">
+          <li class="nav-item active"><a href="#home" class="text-decoration-none ">Home</a></li>
+          <li class="nav-item"><a href="#services" class="text-decoration-none" onmouseenter="hoverEnter()" >Our Service <span>+</span></a>
+           <div id="hover-id" class="hover-items" onmouseleave="hoverLeave()"  >
+             <ul>
+              <li>Data Annotation
+               
+                 </li>
+              <li> Data Labeling
+                </li>
+              <li>Content Services
+               </li>
+              <li> NLP
+                </li>
+              <li>Data Enhancement
+                </li>
+              <li>Computer Vision
+               </li>
+              <li> LiDAR Annotation
+                </li>
+                <li>Digital Publishing</li>
+             </ul>
+    
+           </div>
+          </li>
+          <li class="nav-item"><a href="#use-case" class="text-decoration-none" onmouseenter="hoverEnter1()">Use Case <span>+</span></a>
+            <div id="hover-id-1" class="hover-items" onmouseleave="hoverLeave1()"  >
+              <ul>
+               <li>Facial Recognition
+                
+                  </li>
+               <li> Self-Driving Cars
+                
+                 </li>
+               <li>Drones &#038; Satellites
+               
+                </li>
+               <li>  Retail &#038; E-commerce
+               
+                 </li>
+               <li> Figure Detection
+                
+                 </li>
+               <li>Video &#038; Motion Tracking
+               
+                </li>
+               <li>  Sports Annotation
+               
+                 </li>
+                 <li> Audio Annotation</li>
+              </ul>
+     
+            </div>
+          </li>
+          <li class="nav-item"><a href="#blogs" class="text-decoration-none">Blogs</a></li>
+          <li class="nav-item"><a href="#contact" class="text-decoration-none">Contact</a></li>
+          <li class=""><button class="nav-call">Call Us Now</button></li>
+        </ul>
+      </nav>
+
+      <!-- fixed right nav -->
+      <div class="w-100">
+        <div class="container d-flex justify-content-end align-items-center flex-column bg-success">
+    
+    
+        </div>
+     </div>
+
+      <!-- blog landing page -->
+<div class="w-100 h-75">
+    <img src="/public/blod_iomg.jpg" alt="" class="w-100 position-relative   h-75">
+    <div class="container    position-relative   z-5 d-flex justify-content-center align-items-center flex-column text-light " style="bottom:15rem"> 
+        <h1 class="fw-bold " >Blog</h1>
+       <p> Learning Spiral AI > Blogs</p>
+    </div>
+</div>
+ 
+<div class="w-100 bg-secondary">
+    <div class="container ">
+        <div class="row ">
+          <div class="col-md-4 bg-light mt-5 h-100  blog-conatiner ">
+            <div class=" d-flex justify-content-center ">
+              <div class=" d-flex justify-content-between flex-column align-items-center w-100">
+                <img src="/public/Self-Driving_Cars-01.jpg" alt="" class="w-100">
+                <div class="d-flex justify-content-center align-items-center text-left fw-bolder mt-3">
+                    <h3>Self-Driving Cars: The Crucial Role of Image Annotation in Training Autonomous Vehicles </h3>
+                </div>
+                <div class="date-name d-flex flex-column justify-content-around mt-4 mb-3 fs-sm">
+                  <div class="w-100  ">
+                  <span><i class="fa-regular fa-calendar "></i> June 12, 2024</span>
+                  <span><i class="fa-regular fa-user"></i>Manish Mohta</span>
+                </div>
+
+                  <span><i class="fa-regular fa-user mt-1"></i>Image Annotation</span>
+                </div>
+                <div class="  d-flex flex-column justify-content-around mx-3 fs-5 mb-4">
+                  <p class="mb-4 fs-7">
+                    The vision of self-driving cars navigating city streets seamlessly is no longer science fiction. However, the journey towards fully autonomous vehicles requires significant advancements in Artificial Intelligence (AI), particularly in the area of computer vision.  Here’s where image annotation steps in as a critical player in training the brains... 
+                  </p>
+                  <button class="interest-service-btn w-50 ">read more</button>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+          <div class="col-md-4 bg-light mt-5 h-100  blog-conatiner ">
+            <div class=" d-flex justify-content-center ">
+              <div class=" d-flex justify-content-between flex-column align-items-center w-100">
+                <img src="/public/Choosing_the_Right_Data_Labeling_Partner-01.jpg" alt="" class="w-100">
+                <div class="d-flex justify-content-center align-items-center text-left  fw-bolder mt-3">
+                    <h3>The Ultimate Guide to Choosing an Image Annotation Service Provider </h3>
+                </div>
+                <div class="date-name d-flex flex-column justify-content-around mt-4 mb-3 fs-sm">
+                  <div class="w-100  ">
+                  <span><i class="fa-regular fa-calendar "></i> June 12, 2024</span>
+                  <span><i class="fa-regular fa-user"></i>Manish Mohta</span>
+                </div>
+
+                  <span><i class="fa-regular fa-user mt-1"></i>Image Annotation</span>
+                </div>
+                <div class="  d-flex flex-column justify-content-around mx-3 fs-5 mb-4">
+                  <p class="mb-4 fs-7">
+                    The vision of self-driving cars navigating city streets seamlessly is no longer science fiction. However, the journey towards fully autonomous vehicles requires significant advancements in Artificial Intelligence (AI), particularly in the area of computer vision.  Here’s where image annotation steps in as a critical player in training the brains... 
+                  </p>
+                  <button class="interest-service-btn w-50 ">read more</button>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+          <div class="col-md-4 bg-light mt-5   h-100   ">
+            <div class=" d-flex justify-content-center ">
+              <div class=" d-flex justify-content-between  align-items-center my-3 col-srch  p-5">
+                <input type="search" placeholder="Searching..." class="srch-btn" >  <i class="fa-solid fa-magnifying-glass fs-4 mx-2"></i>
+              </div>
+  
+            </div>
+  
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-md-4 bg-light mt-5 h-100  blog-conatiner ">
+            <div class=" d-flex justify-content-center ">
+              <div class=" d-flex justify-content-between flex-column align-items-center w-100">
+                <img src="/public/Self-Driving_Cars-01.jpg" alt="" class="w-100">
+                <div class="d-flex justify-content-center align-items-center text-left fw-bolder mt-3">
+                    <h3>Self-Driving Cars: The Crucial Role of Image Annotation in Training Autonomous Vehicles </h3>
+                </div>
+                <div class="date-name d-flex flex-column justify-content-around mt-4 mb-3 fs-sm">
+                  <div class="w-100  ">
+                  <span><i class="fa-regular fa-calendar "></i> June 12, 2024</span>
+                  <span><i class="fa-regular fa-user"></i>Manish Mohta</span>
+                </div>
+
+                  <span><i class="fa-regular fa-user mt-1"></i>Image Annotation</span>
+                </div>
+                <div class="  d-flex flex-column justify-content-around mx-3 fs-5 mb-4">
+                  <p class="mb-4 fs-7">
+                    The vision of self-driving cars navigating city streets seamlessly is no longer science fiction. However, the journey towards fully autonomous vehicles requires significant advancements in Artificial Intelligence (AI), particularly in the area of computer vision.  Here’s where image annotation steps in as a critical player in training the brains... 
+                  </p>
+                  <button class="interest-service-btn w-50 ">read more</button>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+          <div class="col-md-4 bg-light mt-5 h-100  blog-conatiner ">
+            <div class=" d-flex justify-content-center ">
+              <div class=" d-flex justify-content-between flex-column align-items-center w-100">
+                <img src="/public/Choosing_the_Right_Data_Labeling_Partner-01.jpg" alt="" class="w-100">
+                <div class="d-flex justify-content-center align-items-center text-left  fw-bolder mt-3">
+                    <h3>The Ultimate Guide to Choosing an Image Annotation Service Provider </h3>
+                </div>
+                <div class="date-name d-flex flex-column justify-content-around mt-4 mb-3 fs-sm">
+                  <div class="w-100  ">
+                  <span><i class="fa-regular fa-calendar "></i> June 12, 2024</span>
+                  <span><i class="fa-regular fa-user"></i>Manish Mohta</span>
+                </div>
+
+                  <span><i class="fa-regular fa-user mt-1"></i>Image Annotation</span>
+                </div>
+                <div class="  d-flex flex-column justify-content-around mx-3 fs-5 mb-4">
+                  <p class="mb-4 fs-7">
+                    The vision of self-driving cars navigating city streets seamlessly is no longer science fiction. However, the journey towards fully autonomous vehicles requires significant advancements in Artificial Intelligence (AI), particularly in the area of computer vision.  Here’s where image annotation steps in as a critical player in training the brains... 
+                  </p>
+                  <button class="interest-service-btn w-50 ">read more</button>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+          <div class="col-md-4 bg-light mt-5   h-100   ">
+            <div class=" d-flex justify-content-center ">
+              <div class=" d-flex justify-content-between  align-items-center my-3 col-srch  p-5">
+                <input type="search" placeholder="Searching..." class="srch-btn" >  <i class="fa-solid fa-magnifying-glass fs-4 mx-2"></i>
+              </div>
+  
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
